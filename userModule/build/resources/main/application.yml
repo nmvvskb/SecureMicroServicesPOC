@@ -1,0 +1,12 @@
+server:
+  port: 9002
+  ssl:
+    key-store: userModule.jks
+    key-store-password: India@1234
+    Alias: user
+    client-auth: need
+
+spring:
+  application:
+    name: USER-SERVICE
+

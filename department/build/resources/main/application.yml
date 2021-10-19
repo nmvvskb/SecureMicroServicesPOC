@@ -1,0 +1,12 @@
+server:
+  port: 9001
+  ssl:
+    key-store: classpath:department.jks
+    key-store-passowrd: India@1234
+    key-Alias: depModule
+    client-auth: need
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+
